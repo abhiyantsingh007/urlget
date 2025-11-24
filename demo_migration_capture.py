@@ -81,7 +81,7 @@ def create_sample_data():
     # Create summary
     summary = {
         "capture_timestamp": datetime.now().isoformat(),
-        "base_url": "https://acme.qa.egalvanic.ai",
+        "base_url": "https://acme.egalvanic.ai",
         "pages_captured": pages,
         "api_responses_captured": len(sample_responses),
         "output_directory": output_dir
